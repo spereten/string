@@ -1,0 +1,17 @@
+{
+    "name": "spereten/string",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Spereten\\String\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Aleinik"
+        }
+    ],
+    "require": {
+        "symfony/polyfill-mbstring": "^1.27"
+    }
+}
